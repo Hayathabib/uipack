@@ -1,20 +1,7 @@
-# UIKit Monorepo Development Guide
+# UIKpack Monorepo Development Guide
 
-UIKit is a TypeScript-based React component library and utilities monorepo containing 17+ packages including UI components, React hooks, AWS utilities, text processing tools, and more. The repository uses Yarn 4 with Plug'n'Play (PnP), Vite for building, Vitest for testing, and Storybook for documentation.
+UIpack is a TypeScript-based React component library and utilities monorepo containing 17+ packages including UI components, React hooks, AWS utilities, text processing tools, and more. The repository uses Yarn 4 with Plug'n'Play (PnP), Vite for building, Vitest for testing, and Storybook for documentation.
 
-**Always reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.**
-
-## Critical Build & Test Timing Information
-
-**NEVER CANCEL long-running commands.** All timing below includes 50% buffer for timeout recommendations:
-
-- `yarn install`: ~4 seconds with cache, ~90 seconds fresh (TIMEOUT: 120 seconds)
-- `yarn build`: ~57 seconds (TIMEOUT: 90 seconds) - **NEVER CANCEL**
-- `yarn test`: ~10 seconds (TIMEOUT: 30 seconds)  
-- `yarn lint`: ~16 seconds (TIMEOUT: 45 seconds)
-- `yarn format`: ~3 seconds (TIMEOUT: 30 seconds)
-- `yarn tsc`: ~26 seconds (TIMEOUT: 60 seconds)
-- `yarn buildall`: Used for Storybook build and deployment to Netlify (~65 seconds then fails on storybook in sandboxed environments) - **DO NOT USE for development**
 
 ## Essential Setup & Development Commands
 
@@ -31,61 +18,21 @@ yarn build    # NEVER CANCEL - takes ~57 seconds
 # Start Storybook development server for component testing
 yarn dev     # Starts Storybook server on http://localhost:6006
 
-# Alternative: make changes and test with:
-yarn build  # NEVER CANCEL - takes ~57 seconds  
-yarn test   # Takes ~10 seconds
-yarn lint   # Takes ~16 seconds
-```
 
 **Run tests:**
 ```bash
-yarn test        # Full test suite - takes ~10 seconds
-yarn test:watch  # Watch mode for development
+yarn test        
+yarn test:watch 
 ```
 
-**Known test failures (EXPECTED):**
-- 2 tests in `packages/post/src/index.test.ts` fail due to network dependency on `countries.trevorblades.com`
-- These failures are NOT related to your changes and can be ignored
-
-**Type checking:**
-```bash
-yarn tsc  # Takes ~26 seconds - should pass successfully
-```
 
 **TypeScript compilation:**
 - All packages should type-check successfully
 - If compilation fails, investigate and fix the type errors before proceeding
 
-**Linting:**
-```bash
-yarn lint      # Takes ~16 seconds
-yarn lintfix   # Auto-fix linting issues
-yarn format    # Format code with Prettier
-```
 
-## Manual Validation Requirements
 
-**After making changes, ALWAYS perform these validation steps:**
 
-1. **Build validation:**
-   ```bash
-   yarn build  # NEVER CANCEL - must complete (~58 seconds)
-   ```
-
-2. **Test validation:**
-   ```bash
-   yarn test  # Expect 2 network failures, rest should pass
-   ```
-
-3. **Lint validation:**
-   ```bash
-   yarn lint  # Must pass with 0 errors (warnings OK)
-   ```
-
-4. **Component validation scenarios:**
-   - If changing React components in `packages/*/src/`, run the component's specific test file
-   - For UI components (dropdown, input-text, css-value-input, date-picker), verify the test suite passes
-   - For hooks (use-keyboard-events, use-is-out-of-bounds, use-bounding-client-rect), test via Storybook stories using `yarn dev`
 
 ## Repository Structure & Key Locations
 
