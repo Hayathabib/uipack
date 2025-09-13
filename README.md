@@ -17,7 +17,7 @@ packages/
 │   └── use-bounding-client-rect/ # Element dimensions
 ├── Utilities:
 │   ├── parsing/            # JSON parsing with error tolerance
-│   ├── textual/            # Text transformation utilities
+│   ├── textual/            # Text transformation utilities 
 │   ├── matchmaking/        # Fuzzy string matching
 │   ├── uniquify/           # String uniqueness utility
 │   └── styling/            # CSS-in-JS utilities
@@ -26,6 +26,8 @@ packages/
 │   ├── aws-signature-v4/   # AWS SigV4 signing
 │   └── post/               # GraphQL request utility
 └── docs/                   # Storybook documentation (CURRENTLY BROKEN)
+Configuration files:
+
 Configuration files:
 
 package.json - Root workspace configuration with scripts
