@@ -1,0 +1,50 @@
+{
+    "name": "@acusti/uniquify",
+    "version": "0.8.0",
+    "type": "module",
+    "sideEffects": false,
+    "exports": "./dist/uniquify.js",
+    "main": "./dist/uniquify.js",
+    "types": "./dist/uniquify.d.ts",
+    "files": [
+        "dist"
+    ],
+    "description": "Generate a unique string (e.g. for filenames or url slugs) using an incremental counter",
+    "keywords": [
+        "unique",
+        "uniq",
+        "file",
+        "name",
+        "filename",
+        "url",
+        "slug",
+        "upload",
+        "utils",
+        "utilities",
+        "typescript",
+        "ts",
+        "isomorphic",
+        "universal"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "test": "vitest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/acusti/uikit.git",
+        "directory": "packages/uniquify"
+    },
+    "author": "andrew patton <andrew@acusti.ca> (https://www.acusti.ca)",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/acusti/uikit/issues"
+    },
+    "homepage": "https://github.com/acusti/uikit/tree/main/packages/uniquify#readme",
+    "devDependencies": {
+        "typescript": "5.9.2",
+        "unplugin-dts": "^1.0.0-beta.6",
+        "vite": "^7.1.5",
+        "vitest": "^3.2.4"
+    }
+}

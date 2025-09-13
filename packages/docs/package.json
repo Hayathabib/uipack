@@ -1,0 +1,30 @@
+{
+    "name": "@acusti/uikit-docs",
+    "version": "0.4.2",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "build": "storybook build -o dist",
+        "storybook": "storybook dev -p 6006"
+    },
+    "devDependencies": {
+        "@storybook/addon-docs": "^9",
+        "@storybook/react-vite": "^9",
+        "@types/react": "^19.1.12",
+        "core-js": "^3.45.1",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1",
+        "storybook": "^9",
+        "typescript": "5.9.2",
+        "vite": "^7.1.5"
+    },
+    "dependencies": {
+        "@acusti/css-value-input": "workspace:^",
+        "@acusti/date-picker": "workspace:^",
+        "@acusti/dropdown": "workspace:^",
+        "@acusti/input-text": "workspace:^",
+        "@acusti/use-is-out-of-bounds": "workspace:^",
+        "@acusti/use-keyboard-events": "workspace:^"
+    }
+}

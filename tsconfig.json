@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "baseUrl": ".",
+        "composite": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react-jsx",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "paths": {
+            "@acusti/*": ["packages/*/src"]
+        },
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "es2017"
+    },
+    "exclude": [".yarn/cache", "node_modules", "dist"],
+    "references": [
+        { "path": "packages/appsync-fetch" },
+        { "path": "packages/aws-signature-v4" },
+        { "path": "packages/css-value-input" },
+        { "path": "packages/css-values" },
+        { "path": "packages/date-picker" },
+        { "path": "packages/dropdown" },
+        { "path": "packages/input-text" },
+        { "path": "packages/matchmaking" },
+        { "path": "packages/parsing" },
+        { "path": "packages/post" },
+        { "path": "packages/styling" },
+        { "path": "packages/textual" },
+        { "path": "packages/uniquify" },
+        { "path": "packages/use-bounding-client-rect" },
+        { "path": "packages/use-is-out-of-bounds" },
+        { "path": "packages/use-keyboard-events" }
+    ]
+}

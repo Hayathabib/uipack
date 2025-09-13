@@ -1,0 +1,64 @@
+{
+    "name": "@acusti/css-value-input",
+    "version": "2.1.2",
+    "type": "module",
+    "sideEffects": false,
+    "exports": "./dist/CSSValueInput.js",
+    "main": "./dist/CSSValueInput.js",
+    "types": "./dist/CSSValueInput.d.ts",
+    "files": [
+        "dist"
+    ],
+    "description": "React component that renders a text input that can take and update a CSS value of a particular type with a default unit",
+    "keywords": [
+        "react",
+        "react-component",
+        "css",
+        "css-value",
+        "form",
+        "input",
+        "input-text",
+        "ssr",
+        "typescript",
+        "ts"
+    ],
+    "scripts": {
+        "test": "vitest",
+        "build": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/acusti/uikit.git",
+        "directory": "packages/css-value-input"
+    },
+    "author": "andrew patton <andrew@acusti.ca> (https://www.acusti.ca)",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/acusti/uikit/issues"
+    },
+    "homepage": "https://github.com/acusti/uikit/tree/main/packages/css-value-input#readme",
+    "devDependencies": {
+        "@testing-library/dom": "^10.4.1",
+        "@testing-library/react": "^16.3.0",
+        "@testing-library/user-event": "^14.6.1",
+        "@types/react": "^19.1.12",
+        "@vitejs/plugin-react": "^5.0.2",
+        "babel-plugin-react-compiler": "rc",
+        "happy-dom": "^18.0.1",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1",
+        "typescript": "5.9.2",
+        "unplugin-dts": "^1.0.0-beta.6",
+        "vite": "^7.1.5",
+        "vitest": "^3.2.4"
+    },
+    "dependencies": {
+        "@acusti/css-values": "^1.2.0",
+        "@acusti/input-text": "^2.1.1",
+        "clsx": "^2"
+    },
+    "peerDependencies": {
+        "react": "^19 || ~0.0.0-experimental < 0.0.0-f",
+        "react-dom": "^19 || ~0.0.0-experimental < 0.0.0-f"
+    }
+}
