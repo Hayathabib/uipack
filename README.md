@@ -5,6 +5,11 @@ A **TypeScript-based React component library & utilities** monorepo with **17+ p
 
 Built with **Yarn 4 (PnP)**, **Vite**, **Vitest**, and **Storybook**.  
 
+## What is a Monorepo?
+
+A monolithic repository, commonly known as a mono-repo, is a version control repository that houses multiple projects or components within a single repository. 
+This approach stands in contrast to the traditional model of having separate repositories for each project.
+
 ---
 
 ## 📦 Repository Structure
