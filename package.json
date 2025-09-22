@@ -48,7 +48,7 @@
   "devDependencies": {
     "@babel/core": "^7.28.3",
     "@chromatic-com/storybook": "4.1.1",
-    "@eslint/js": "^9.35.0",
+    "@eslint/js": "^9.36.0",
     "@storybook/addon-a11y": "9.1.5",
     "@storybook/addon-docs": "9.1.5",
     "@storybook/addon-essentials": "^8.6.14",
@@ -64,7 +64,7 @@
     "@typescript-eslint/parser": "^8.43.0",
     "@vitest/browser": "3.2.4",
     "@vitest/coverage-v8": "3.2.4",
-    "eslint": "^9.35.0",
+    "eslint": "^9.36.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-canonical": "^5.1.3",
