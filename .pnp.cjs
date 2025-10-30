@@ -116,7 +116,7 @@ const RAW_RUNTIME_STATE =
           ["@acusti/uikit", "workspace:."],\
           ["@babel/core", "npm:7.28.3"],\
           ["@changesets/cli", "npm:2.29.7"],\
-          ["@chromatic-com/storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.1"],\
+          ["@chromatic-com/storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.2"],\
           ["@eslint/js", "npm:9.35.0"],\
           ["@storybook/addon-a11y", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
           ["@storybook/addon-docs", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
@@ -536,7 +536,7 @@ const RAW_RUNTIME_STATE =
           ["@acusti/uikit", "workspace:."],\
           ["@babel/core", "npm:7.28.3"],\
           ["@changesets/cli", "npm:2.29.7"],\
-          ["@chromatic-com/storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.1"],\
+          ["@chromatic-com/storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.2"],\
           ["@eslint/js", "npm:9.35.0"],\
           ["@storybook/addon-a11y", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
           ["@storybook/addon-docs", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
@@ -1443,20 +1443,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@chromatic-com/storybook", [\
-      ["npm:4.1.1", {\
-        "packageLocation": "./.yarn/cache/@chromatic-com-storybook-npm-4.1.1-22e998b885-81cee93eb5.zip/node_modules/@chromatic-com/storybook/",\
+      ["npm:4.1.2", {\
+        "packageLocation": "./.yarn/cache/@chromatic-com-storybook-npm-4.1.2-b67f836d97-00d3113a87.zip/node_modules/@chromatic-com/storybook/",\
         "packageDependencies": [\
-          ["@chromatic-com/storybook", "npm:4.1.1"]\
+          ["@chromatic-com/storybook", "npm:4.1.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.1", {\
-        "packageLocation": "./.yarn/__virtual__/@chromatic-com-storybook-virtual-1a26ee3dfb/0/cache/@chromatic-com-storybook-npm-4.1.1-22e998b885-81cee93eb5.zip/node_modules/@chromatic-com/storybook/",\
+      ["virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.2", {\
+        "packageLocation": "./.yarn/__virtual__/@chromatic-com-storybook-virtual-cfd610c87c/0/cache/@chromatic-com-storybook-npm-4.1.2-b67f836d97-00d3113a87.zip/node_modules/@chromatic-com/storybook/",\
         "packageDependencies": [\
-          ["@chromatic-com/storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.1"],\
+          ["@chromatic-com/storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:4.1.2"],\
           ["@neoconfetti/react", "npm:1.0.0"],\
           ["@types/storybook", null],\
-          ["chromatic", "virtual:1a26ee3dfb45a54bfdcb65994eb2564c80ccb2ebd9aa0cc32efd9290ae82b61d461caa5a416d097ddd69e8c4cc0b5baf5765ceb569c7cecb8cf19eda94d059da#npm:12.2.0"],\
+          ["chromatic", "virtual:cfd610c87c60d1eafbebfad4691e4eb975a185449190ed3412e2aee9c80aa40fb48468d11dc5a55b3218ced98dd20fef70ae23fdb8e3e39d51c3bb3feb718983#npm:12.2.0"],\
           ["filesize", "npm:10.1.6"],\
           ["jsonfile", "npm:6.2.0"],\
           ["storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
@@ -5193,14 +5193,14 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:1a26ee3dfb45a54bfdcb65994eb2564c80ccb2ebd9aa0cc32efd9290ae82b61d461caa5a416d097ddd69e8c4cc0b5baf5765ceb569c7cecb8cf19eda94d059da#npm:12.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/chromatic-virtual-0a97c56e5b/0/cache/chromatic-npm-12.2.0-00cb970512-e5d8787b72.zip/node_modules/chromatic/",\
+      ["virtual:cfd610c87c60d1eafbebfad4691e4eb975a185449190ed3412e2aee9c80aa40fb48468d11dc5a55b3218ced98dd20fef70ae23fdb8e3e39d51c3bb3feb718983#npm:12.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/chromatic-virtual-bb57e921a9/0/cache/chromatic-npm-12.2.0-00cb970512-e5d8787b72.zip/node_modules/chromatic/",\
         "packageDependencies": [\
           ["@chromatic-com/cypress", null],\
           ["@chromatic-com/playwright", null],\
           ["@types/chromatic-com__cypress", null],\
           ["@types/chromatic-com__playwright", null],\
-          ["chromatic", "virtual:1a26ee3dfb45a54bfdcb65994eb2564c80ccb2ebd9aa0cc32efd9290ae82b61d461caa5a416d097ddd69e8c4cc0b5baf5765ceb569c7cecb8cf19eda94d059da#npm:12.2.0"]\
+          ["chromatic", "virtual:cfd610c87c60d1eafbebfad4691e4eb975a185449190ed3412e2aee9c80aa40fb48468d11dc5a55b3218ced98dd20fef70ae23fdb8e3e39d51c3bb3feb718983#npm:12.2.0"]\
         ],\
         "packagePeers": [\
           "@chromatic-com/cypress",\
