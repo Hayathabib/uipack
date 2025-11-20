@@ -12,7 +12,7 @@
         "@storybook/addon-docs": "^9",
         "@storybook/react-vite": "^9",
         "@types/react": "^19.1.12",
-        "core-js": "^3.45.1",
+        "core-js": "^3.47.0",
         "react": "^19.1.1",
         "react-dom": "^19.1.1",
         "storybook": "^9",
