@@ -152,7 +152,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:16.4.0"],\
           ["happy-dom", "npm:18.0.1"],\
           ["playwright", "npm:1.55.0"],\
-          ["prettier", "npm:3.6.2"],\
+          ["prettier", "npm:3.7.4"],\
           ["react", "npm:19.1.1"],\
           ["react-dom", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:19.1.1"],\
           ["storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
@@ -572,7 +572,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:16.4.0"],\
           ["happy-dom", "npm:18.0.1"],\
           ["playwright", "npm:1.55.0"],\
-          ["prettier", "npm:3.6.2"],\
+          ["prettier", "npm:3.7.4"],\
           ["react", "npm:19.1.1"],\
           ["react-dom", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:19.1.1"],\
           ["storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
@@ -9101,10 +9101,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:3.6.2", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.6.2-2668152203/node_modules/prettier/",\
+      ["npm:3.7.4", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.7.4-78f94d4194/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.6.2"]\
+          ["prettier", "npm:3.7.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9980,7 +9980,7 @@ const RAW_RUNTIME_STATE =
           ["better-opn", "npm:3.0.2"],\
           ["esbuild", "npm:0.25.5"],\
           ["esbuild-register", "virtual:c296db43b07eae66c589bb179a475a7980e9f3a275fc6670f333d904c81d8b14c34739cabeb4ca6b3aca0f8f91776efaddc667586a40a9de3ad07b49712ae74d#npm:3.5.0"],\
-          ["prettier", "npm:3.6.2"],\
+          ["prettier", "npm:3.7.4"],\
           ["recast", "npm:0.23.11"],\
           ["semver", "npm:7.7.1"],\
           ["storybook", "virtual:afe4e4a1c85e0b022894420d9b3e04e61e9c8c5fe86707d0599325649d85a5d5c03732ca16e1484fddaba15449239efc39b69b9e5b4963f252ae7a4aee0b9a39#npm:9.1.5"],\
